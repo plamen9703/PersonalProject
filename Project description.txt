@@ -1,0 +1,12 @@
+Image viwer package;
+
+The idea is to create a graphics interface that lets you open pictures from a folder and
+lets you easaly go to picutes from another folder simply by selecting a name/tag for the pictures in that folder.
+Once you double click a label containning the folder it opens the image with the default image viewing program on your OS.
+Curenltly the project is at its roughf state and some things dont really work fully the way they sohould. Need to find time to fish it.
+
+Save images package:
+
+The idea is to combite this frama with the one mentioned above letting you save images from a url more easyly than having to deal with the web browser to do so.
+Main disadvantage of this that you do need the image URL witch not all might be able to get at times.
+Core idea is finished but it still needs some work to be as optimal as posible and to work as fast as posible.
