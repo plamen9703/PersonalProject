@@ -22,7 +22,7 @@ public class SerializeStratingFolder {
         String path=scan.nextLine();
         scan.close();
         try {
-            ObjectInputStream i=new ObjectInputStream(new FileInputStream("G:\\java girls serialization\\gilrsInformation.txt"));
+            ObjectInputStream i=new ObjectInputStream(new FileInputStream(path));
             fiolder=(Folder[])i.readObject();
         } catch (FileNotFoundException ex) {
             System.out.println("File not found.");
